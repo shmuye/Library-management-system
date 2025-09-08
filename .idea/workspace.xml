@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16bffcdb-21ce-45f7-a106-ebe7dbb3c6e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/middleware/errorMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/models/Book.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/models/BookRecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/validators/bookValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/validators/borrowValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/validators/userValidation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,8 @@
       <workItem from="1757309636079" duration="825000" />
       <workItem from="1757310700123" duration="1543000" />
       <workItem from="1757312757280" duration="1320000" />
-      <workItem from="1757314594411" duration="4499000" />
+      <workItem from="1757314594411" duration="4955000" />
+      <workItem from="1757323263263" duration="1499000" />
     </task>
     <servers />
   </component>
