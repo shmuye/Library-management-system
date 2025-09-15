@@ -4,8 +4,10 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
 import {notFound, errorHandler} from "./middleware/errorMiddleware.js";
+import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config(); // Load .env file
+connectDB();
 
 const app = express();
 
@@ -13,8 +15,7 @@ const app = express();
 app.use(express.json()); // Parse JSON bodies
 app.use(morgan("dev"));  // Logging
 
-// Connect Database
-connectDB();
+app.use('/auth', authRoutes)
 
 // Basic test route
 app.get("/", (req, res) => {
