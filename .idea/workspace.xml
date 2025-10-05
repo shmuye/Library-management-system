@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16bffcdb-21ce-45f7-a106-ebe7dbb3c6e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/controllers/authControllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/utils/genSalt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/utils/generateRefreshToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/controllers/authController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/middleware/errorMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/middleware/errorMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/routes/authRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/utils/generateToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/utils/generateToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/validators/userValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/validators/userValidation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;HTTP Request.request | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #3.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
@@ -34,17 +44,21 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shmuy/Desktop/summer-projects/Library-management-system&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shmuy/Desktop/summer-projects/Library-management-system/jwtTemp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;httpClient&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shmuy\Desktop\summer-projects\Library-management-system\jwtTemp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shmuy\Desktop\summer-projects\Library-management-system\Frontend\src" />
     </key>
@@ -76,6 +90,26 @@
       <workItem from="1757401478009" duration="12000" />
       <workItem from="1757918311008" duration="716000" />
       <workItem from="1757924640656" duration="5014000" />
+      <workItem from="1757934710537" duration="1849000" />
+      <workItem from="1758005512558" duration="4310000" />
+      <workItem from="1758017599727" duration="27000" />
+      <workItem from="1758020196335" duration="1455000" />
+      <workItem from="1758021787113" duration="679000" />
+      <workItem from="1758213682762" duration="686000" />
+      <workItem from="1758256483676" duration="37000" />
+      <workItem from="1758441222865" duration="261000" />
+      <workItem from="1758477774563" duration="593000" />
+      <workItem from="1758531930423" duration="414000" />
+      <workItem from="1758580337507" duration="33000" />
+      <workItem from="1758700057272" duration="1282000" />
+      <workItem from="1758727526598" duration="594000" />
+      <workItem from="1758782282591" duration="15000" />
+      <workItem from="1759475837543" duration="3036000" />
+      <workItem from="1759493383176" duration="4130000" />
+      <workItem from="1759506076670" duration="3246000" />
+      <workItem from="1759514454722" duration="598000" />
+      <workItem from="1759568132503" duration="26000" />
+      <workItem from="1759646435849" duration="4026000" />
     </task>
     <servers />
   </component>
